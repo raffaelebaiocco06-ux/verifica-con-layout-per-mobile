@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.65;
+  font-style: normal;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-style: normal;
+}
+* {
+  text-align: center;
+}
+body {
+  color: #393d41;
+}
+h1,
+h2 {
+  margin-bottom: 10px;
+  font-size: 35px;
+}
+p {
+  margin-bottom: 10px;
+}
+a {
+  color: white;
+}
+h1,
+h2,
+h3,
+h4.h5,
+h5,
+p {
+  padding-inline: 20px;
+}
+
+.logo {
+  background-color: black;
+  height: 100px;
+}
+.dimensione {
+  height: 50%;
+  width: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.spazio {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cerchio {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bimg {
+  height: 30vh;
+  background-image: url("/images/banner.jpg");
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.bottone {
+  margin-top: 10px;
+  color: white;
+  background-color: #f04c2f;
+  border-radius: 5px;
+  width: 30%;
+  height: 15%;
+  border: none;
+}
+.celeste {
+  color: #25a2c3;
+}
+.margine {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.testimonianze {
+  color: white;
+  background-color: #e22d0e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+.misurap {
+  margin-top: -15px;
+  font-size: 70%;
+}
+.ristretto {
+  font-size: 17px;
+  margin-top: 5px;
+}
+.treimg {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 0;
+  padding-inline: 0;
+  margin-bottom: 0;
+}
+.bordo {
+  width: 80%;
+  border: 1px solid #dee1e3;
+  border-radius: 0 0 1% 1%;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.spaziosotto {
+  padding-bottom: 30px;
+}
+.trattino {
+  border: solid 0.5px;
+  margin-inline: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.boxu {
+  padding-top: 20px;
+  color: white;
+  background-color: #25a2c3;
+  padding-bottom: 40px;
+}
